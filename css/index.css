@@ -26,14 +26,19 @@
   display: none;
 }
 .phone .home .container .walk {
+  display: block;
   max-width: 100%;
+  padding: 0;
 }
 .phone .home .container .walk .walk-text {
   min-width: 90vw;
   order: 2;
+  margin: 15px;
+  background-attachment: fixed;
 }
 .phone .home .container .walk .walk-text h3 {
   display: block;
+  margin-bottom: 24px;
 }
 .phone .home .container .walk .walk-text p {
   display: block;
@@ -41,9 +46,9 @@
 .phone .home .container .walk .walk-text .btn {
   display: block;
   color: #FFF;
+  width: 90vw;
   font-size: 2rem;
   background-color: #000;
-  padding: 2%;
   border: 1px solid #000;
   border-radius: 5px;
   text-align: center;
@@ -53,6 +58,7 @@
   min-width: 90vw;
   border-radius: 20px;
   order: 1;
+  background-attachment: fixed;
 }
 /*    .phone    */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -231,14 +237,19 @@ p {
     display: none;
   }
   .home .container .walk {
+    display: block;
     max-width: 100%;
+    padding: 0;
   }
   .home .container .walk .walk-text {
     min-width: 90vw;
     order: 2;
+    margin: 15px;
+    background-attachment: fixed;
   }
   .home .container .walk .walk-text h3 {
     display: block;
+    margin-bottom: 24px;
   }
   .home .container .walk .walk-text p {
     display: block;
@@ -246,9 +257,9 @@ p {
   .home .container .walk .walk-text .btn {
     display: block;
     color: #FFF;
+    width: 90vw;
     font-size: 2rem;
     background-color: #000;
-    padding: 2%;
     border: 1px solid #000;
     border-radius: 5px;
     text-align: center;
@@ -258,6 +269,7 @@ p {
     min-width: 90vw;
     border-radius: 20px;
     order: 1;
+    background-attachment: fixed;
   }
   /*    .walk    */
 }
