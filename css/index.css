@@ -11,17 +11,7 @@
   margin-bottom: 2%;
 }
 .phone {
-  min-width: 90vw;
-}
-.phone .btn {
-  color: #FFF;
-  font-size: 2rem;
-  background-color: #000;
-  padding: 2%;
-  border: 1px solid #000;
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 2%;
+  /*    .walk    */
 }
 .phone .blast {
   min-width: 90vw;
@@ -32,26 +22,35 @@
 .phone .launch {
   display: none;
 }
-.phone .walk {
-  display: flex;
-  flex-direction: column;
-  min-width: 90vw;
-}
 .phone .walk .walk-text {
-  width: 100%;
+  min-width: 90vw;
   text-align: center;
+  order: 2;
 }
 .phone .walk .walk-text h3 {
   display: block;
-  margin: 0 auto;
 }
 .phone .walk .walk-text p {
   display: block;
-  margin: 0 auto;
+}
+.phone .walk .walk-text .btn {
+  display: block;
+  color: #FFF;
+  font-size: 2rem;
+  background-color: #000;
+  padding: 2%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 2%;
 }
 .phone .walk .walk-img img {
+  display: block;
+  min-width: 90vw;
   border-radius: 20px;
+  order: 1;
 }
+/*    .phone    */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -215,17 +214,6 @@ p {
   margin: 0 auto;
 }
 @media (max-width: 500px) {
-  min-width: 90vw;
-  .btn {
-    color: #FFF;
-    font-size: 2rem;
-    background-color: #000;
-    padding: 2%;
-    border: 1px solid #000;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 2%;
-  }
   .blast {
     min-width: 90vw;
   }
@@ -235,26 +223,35 @@ p {
   .launch {
     display: none;
   }
-  .walk {
-    display: flex;
-    flex-direction: column;
-    min-width: 90vw;
-  }
   .walk .walk-text {
-    width: 100%;
+    min-width: 90vw;
     text-align: center;
+    order: 2;
   }
   .walk .walk-text h3 {
     display: block;
-    margin: 0 auto;
   }
   .walk .walk-text p {
     display: block;
-    margin: 0 auto;
+  }
+  .walk .walk-text .btn {
+    display: block;
+    color: #FFF;
+    font-size: 2rem;
+    background-color: #000;
+    padding: 2%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 2%;
   }
   .walk .walk-img img {
+    display: block;
+    min-width: 90vw;
     border-radius: 20px;
+    order: 1;
   }
+  /*    .walk    */
 }
 .navLinks {
   box-sizing: border-box;
