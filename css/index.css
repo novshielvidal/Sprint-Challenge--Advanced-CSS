@@ -26,8 +26,8 @@
   display: none;
 }
 .phone .home .container .walk {
-  display: block;
-  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   padding: 0;
 }
 .phone .home .container .walk .walk-text {
@@ -55,10 +55,11 @@
 }
 .phone .home .container .walk .walk-img img {
   display: block;
-  min-width: 90vw;
-  border-radius: 20px;
   order: 1;
-  background-attachment: fixed;
+  margin: 0 auto;
+  min-width: 90vw;
+  text-align: justify;
+  border-radius: 20px;
 }
 /*    .phone    */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -237,8 +238,8 @@ p {
     display: none;
   }
   .home .container .walk {
-    display: block;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     padding: 0;
   }
   .home .container .walk .walk-text {
@@ -266,10 +267,11 @@ p {
   }
   .home .container .walk .walk-img img {
     display: block;
-    min-width: 90vw;
-    border-radius: 20px;
     order: 1;
-    background-attachment: fixed;
+    margin: 0 auto;
+    min-width: 90vw;
+    text-align: justify;
+    border-radius: 20px;
   }
   /*    .walk    */
 }
