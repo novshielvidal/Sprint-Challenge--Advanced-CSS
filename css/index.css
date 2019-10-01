@@ -21,6 +21,7 @@
   border: 1px solid #000;
   border-radius: 5px;
   text-align: center;
+  margin-bottom: 2%;
 }
 .phone .blast {
   min-width: 90vw;
@@ -31,10 +32,25 @@
 .phone .launch {
   display: none;
 }
-.phone .space-walk {
+.phone .walk {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   min-width: 90vw;
+}
+.phone .walk .walk-text {
+  width: 100%;
+  text-align: center;
+}
+.phone .walk .walk-text h3 {
+  display: block;
+  margin: 0 auto;
+}
+.phone .walk .walk-text p {
+  display: block;
+  margin: 0 auto;
+}
+.phone .walk .walk-img img {
+  border-radius: 20px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -208,6 +224,7 @@ p {
     border: 1px solid #000;
     border-radius: 5px;
     text-align: center;
+    margin-bottom: 2%;
   }
   .blast {
     min-width: 90vw;
@@ -218,10 +235,25 @@ p {
   .launch {
     display: none;
   }
-  .space-walk {
+  .walk {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     min-width: 90vw;
+  }
+  .walk .walk-text {
+    width: 100%;
+    text-align: center;
+  }
+  .walk .walk-text h3 {
+    display: block;
+    margin: 0 auto;
+  }
+  .walk .walk-text p {
+    display: block;
+    margin: 0 auto;
+  }
+  .walk .walk-img img {
+    border-radius: 20px;
   }
 }
 .navLinks {
