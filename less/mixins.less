@@ -1,1 +1,80 @@
 // Mixins Here
+
+.homeTitle {
+    display: flex;
+    flex-direction: column;
+    font-size: 5rem;
+    margin-top: 2%;
+}
+
+
+.aStyle {
+    justify-content: space-between;
+    padding: 2%;
+    text-decoration: none;
+    margin-bottom: 2%;
+}
+
+
+.phone {
+    .home .container .intro img {
+        max-width: 100%;
+    }
+    .blast {
+        min-width: 90vw;
+    }
+
+    .sky {
+        display: none;
+    }
+
+    .launch {
+        display: none;
+        }
+
+    .home .container .walk {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 0;
+     
+        .walk-text {
+            min-width: 90vw;
+            order: 2;
+            margin: 15px;
+            background-attachment: fixed;
+                
+            h3 {
+                display: block;
+                margin-bottom: 24px;
+            }
+
+            p {
+                display: block;
+            }
+
+            .btn {
+                display: block;
+                color: #FFF;
+                width: 90vw;
+                font-size: 2rem;
+                background-color: #000;
+                border: 1px solid #000;
+                border-radius: 5px;
+                text-align: center;
+            }
+        }
+
+        // .walk-img {
+        //     text-align: center;
+        // }
+
+        .walk-img img {
+            display: block;
+            order: 1;
+            margin: 0 auto;
+            min-width: 90vw;
+            text-align: justify;
+            border-radius: 20px;
+        }
+    }     /*    .walk    */
+}  /*    .phone    */

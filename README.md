@@ -32,15 +32,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1. What is the difference between an adaptive website and a fully responsive website?  An adaptive design uses static styles set at various breakpoints whereas a fully responsive website is fluid and will adjust the design of the page according to the size of the viewport.
 
-2. Describe what it means to be mobile first vs desktop first.
+2. Describe what it means to be mobile first vs desktop first.  A mobile first design is design that is developed initially for the smallest mobile screen size, then is enhanced upwards to work for bigger screen sizes.  A desktop first design is design that is initially created for desktop screen sizes, then is later on scaled down to work for smaller screens. 
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?  When using rem units, a font size of 62.5% in the html tag will always call for a font of the same size as the html, or parent, element.
 
-4. How would you describe preprocessing to someone new to CSS?
+4. How would you describe preprocessing to someone new to CSS?  Preprocessing makes CSS easier to use by avoiding repeating code or by making it easier to maintain by adding features that traditional CSS does not have, such as variables, mixins, nesting, functions, etc.
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?  My favorite concept in preprocessing is nesting because it helps make it easier to follow the format of elements in your html, and the concept that is challenging for me is also nesting because you have to be very careful with where or what level you are adding your design elements and properties because elements called within one level do not work outside that level.  So if you make a mistake in calling an element in the child but that element only exists in the parent, your code will not work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
